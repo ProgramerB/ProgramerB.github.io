@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+}
+div.main{
+    color: rgb(0, 0, 0);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+@keyframes slideInBackRight {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+div.content{
+    display: none;
+    width: 18%;
+    height: 500px;
+    animation: 1s ease-out 0s 1 slideInBackRight;
+    transition-delay: 6s;
+}
+
+div.content-header{
+    display: inline-block;
+    width: 80%;
+}
+div.content-header:hover{
+    color: gold;
+}
+div.content-header:hover + div.content{
+    display: inline-block;
+    color: red;
+    animation: 1s ease-out 0s 1 slideInFromRight;
+}

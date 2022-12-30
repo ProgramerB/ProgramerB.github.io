@@ -25,14 +25,42 @@ nav.nav a.active{
     color: #FFD700;
 }
 
+nav.nav a:hover{
+    color: #FFD700;
+}
+
 div.main{
     color: white;
-    width: 80%;
+    width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
 }
 
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 div.main-content{
     font-size: 40px;
+}
+
+div.main-content div.line-right{
+    animation: 3s ease-out 0s 1 slideInFromRight;
+}
+
+div.main-content div.line-left{
+    animation: 3s ease-out 0s 1 slideInFromLeft;
 }
