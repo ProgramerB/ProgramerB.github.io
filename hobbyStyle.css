@@ -19,13 +19,6 @@ div.main{
       opacity: 100%;
     }
   }
-div.content{
-    display: none;
-    width: 40%;
-    height: 500px;
-    font-size: 20px;
-    animation: 6s ease-out 0s 1 slideInFromRight;
-}
 div.content-header{
     display: inline-block;
     width: 50%;
@@ -40,9 +33,46 @@ div.content-header:hover{
     float: left;
 }
 .right-animation{
-    animation: 3s ease-out 0s 1 slideFadeInFromRight;
+    animation: 2s ease-out 0s 1 slideFadeInFromRight;
 }
 .right{
     width: 50%;
     display: inline-block;
+}
+.image{
+    float: right;
+    width: 600px;
+    height: 600px;
+}
+
+.content-top{
+    font-size: 20px;
+}
+
+@media all and (max-width:800px){
+
+    div.left{
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    div.right{
+        display: block;
+        width: 100%;
+    }
+    .image{
+        float: none;
+        width: 400px;
+        height: 400px;
+    }
+    @keyframes slideFadeInFromRight {
+        0% {
+          transform: translateY(100%);
+          opacity: 0%;
+        }
+        100% {
+          transform: translateY(0%);
+          opacity: 100%;
+        }
+      }
 }

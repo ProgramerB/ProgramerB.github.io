@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="hobbyStyle.css" />
         <script src="hobbiesScript.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <nav class="nav">
@@ -19,17 +20,19 @@
             </div>
         </nav>
         <div class="main">
-            None :(
+            List of hobbies
             <div class="main-content">
                 <div class="left">
-                    <div id="id1" class="content-header" onclick="rightContent('hey','id1')">dreaming</div>
-                    <div id="id2" class="content-header" onclick="rightContent('bro','id2')">reading</div>
-                    <div id="id3" class="content-header" onclick="rightContent('bro','id3')">tribal art</div>
-                    <div id="id4" class="content-header" onclick="rightContent('bro','id4')">cycling</div>
-                    <div id="id5" class="content-header" onclick="rightContent('bro','id5')">gaming</div>  
+                    <div id="id1" class="content-header" onclick="rightContent('dream','id1')">dreaming</div>
+                    <div id="id2" class="content-header" onclick="rightContent('read','id2')">reading</div>
+                    <div id="id3" class="content-header" onclick="rightContent('I just like to draw','id3','birb.png')">tribal-art</div>
+                    <div id="id4" class="content-header" onclick="rightContent('tring tring 🛎️','id4','bike.png')">cycling</div>
+                    <div id="id5" class="content-header" onclick="rightContent('game','id5')">gaming</div>  
                 </div>
                 <div id="right-content" class="right right-animation">
-                    bruh
+                    <div id="content-top" class="content-top"></div>
+                    <img id="content-img" class="image"/>
+                    <div id="content-bottom" class="content-bottom"></div>
                 </div>
             </div>
         </div>

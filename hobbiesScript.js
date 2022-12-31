@@ -1,7 +1,12 @@
-function rightContent(info,id){
-    const element = document.getElementById("right-content");
-    element.innerHTML=info;
+function rightContent(info,id,image){
+    const main_element = document.getElementById("right-content");
     
+    const element = document.getElementById("content-top")
+    element.innerHTML=info;
+
+    const img = document.getElementById("content-img");
+    img.src="img/"+image;
+
     const el = document.getElementById(id);
     el.style.color="gold";
 
@@ -12,7 +17,7 @@ function rightContent(info,id){
         }
     }
 
-    element.classList.remove('right-animation');
-    void element.offsetWidth; 
-    element.classList.add('right-animation'); 
+    main_element.classList.remove('right-animation');
+    void main_element.offsetWidth; 
+    main_element.classList.add('right-animation'); 
 }
