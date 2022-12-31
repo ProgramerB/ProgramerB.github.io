@@ -9,31 +9,40 @@ div.main{
     margin-top: 5%;
 }
 
-@keyframes slideInBackRight {
+@keyframes slideFadeInFromRight {
     0% {
-      transform: translateX(0%);
+      transform: translateX(100%);
+      opacity: 0%;
     }
     100% {
-      transform: translateX(100%);
+      transform: translateX(0%);
+      opacity: 100%;
     }
   }
 div.content{
     display: none;
-    width: 18%;
+    width: 40%;
     height: 500px;
-    animation: 1s ease-out 0s 1 slideInBackRight;
-    transition-delay: 6s;
+    font-size: 20px;
+    animation: 6s ease-out 0s 1 slideInFromRight;
 }
-
 div.content-header{
     display: inline-block;
-    width: 80%;
+    width: 50%;
+    cursor: pointer;
 }
 div.content-header:hover{
     color: gold;
 }
-div.content-header:hover + div.content{
+.left{
+    width: 50%;
     display: inline-block;
-    color: red;
-    animation: 1s ease-out 0s 1 slideInFromRight;
+    float: left;
+}
+.right-animation{
+    animation: 3s ease-out 0s 1 slideFadeInFromRight;
+}
+.right{
+    width: 50%;
+    display: inline-block;
 }
