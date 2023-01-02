@@ -1,4 +1,4 @@
-function rightContent(info,id,image){
+function rightContent(info,id,image,limit){
     const main_element = document.getElementById("right-content");
     
     const element = document.getElementById("content-top")
@@ -10,7 +10,7 @@ function rightContent(info,id,image){
     const el = document.getElementById(id);
     el.style.color="gold";
 
-    for(let i=1;i<=5;i++){
+    for(let i=1;i<=limit;i++){
         if(id!=="id"+i){
             const e = document.getElementById("id"+i);
             e.style.color = "black";

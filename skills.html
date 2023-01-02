@@ -3,6 +3,8 @@
     <head>
         <title></title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="skillsStyle.css" />
+        <script src="scripts.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
@@ -18,13 +20,73 @@
             </div>
         </nav>
         <div class="main">
-            <div class="main-content">
-                Lately, I've been, I've been losing sleep<br/>
-                Dreaming about the things that we could be<br/>
-                But baby, I've been, I've been praying hard<br/>
-                Said, "No more counting dollars, we'll be counting stars"
+            <div class="main-contentbox">
+                <div class="main-header">My experience</div>
+                <div class="content">
+                    <div class="item">
+                        <div class="left">
+                            <div class="header">L&T Infotech</div>
+                            <div class="exp-time">June 2022 - Present</div>
+                            <div class="role">Full Stack Developer</div>
+                        </div>
+                        <div class="right">
+                            Being trained for the role of Java Full Stack with skills such as Spring MVC, Spring
+                            Core, Jenkins, Junit, Maven, Angular
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="content">
+                    <div class="item">
+                        <div class="left">
+                            <div class="header">Popshop</div>
+                            <div class="exp-time">Dec 2021 - Jan 2022</div>
+                            <div class="role">Full Stack Intern</div>
+                        </div>
+                        <div class="right">
+                            Developed and hosted an Ecommerce site that uses Django, Apache Framework to
+                            sell lifestyle products on custom server as well as an AWS Server
+                        </div>
+                    </div>
+                </div>
             </div>
-            Lately, I've been, I've been losing sleep
+            
+            <div class="main-contentbox">
+                <div class="main-header">Projects</div>
+                <div>
+                    <div class="left">
+                        <div class="content-header" onclick="rightContent('A Web Crawler that analyses and stores webpages to calculate, optimize rank and priority of each page using page rank algorithm.','id1','spider.jpg',3)" id="id1">page rank spider crawler</div>
+                        <div class="content-header" onclick="rightContent('A real time prediction system using the MQ135 sensor to collect the AQI of the surrounding that to predict concentration of different pollutants like CO, SO2, PM 2.5 etc','id2','pm2.5.png',3)" id="id2">air quality prediction</div>
+                        <div class="content-header" onclick="rightContent('The model focus on high impact political events to fetch media regarding those specific events to form polarity of different ruling parties to predict the popularity opinion regarding them.','id3','bjpmap.png',3)" id="id3">social media sentiment analyser</div>
+                    </div>
+                    <div id="right-content" class="right right-animation">
+                        <div class="left">
+                            <div id="content-top" class="content-top"></div>
+                        </div>
+                        <div class="right">
+                            <img id="content-img" class="image" src="img/white.png"/>
+                        </div>
+                
+                        <div id="content-bottom" class="content-bottom"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-contentbox">
+                <div class="main-header">Cerificates</div>
+                <div>python specialization</div>
+                <div>aws devloper associate</div>
+            </div>
+            <div class="main-contentbox">
+                <div class="main-header">random skills dump</div>
+                <div class="main-content">
+                    <div class="line-right">python c java c++ <br/></div>
+                    <div class="line-left">django bootstrap react-js jenkins<br/></div>
+                    <div class="line-right">spring-core-boot-mvc angular-js flask<br/></div>
+                    <div class="line-left">keycloak unity c# j-unit maven<br/></div>
+                    <div class="line-right">fedora debian windows<br/></div>
+                </div>
+            </div>
+            
         </div>
     </body>
 </html>

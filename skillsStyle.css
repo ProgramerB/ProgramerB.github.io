@@ -1,0 +1,49 @@
+body{
+    background-color: white;
+}
+div.main{
+    color: black;
+}
+
+/* div.main-header{
+    font-size: 40px;
+} */
+div.content div.item{
+    width: 50%;
+    float: left;
+    padding-bottom: 10px;
+}
+
+div.content div.item div.left div.header{
+    font-size: 30px;
+    color: gold;
+}
+.content-header{
+    font-size: 30px;
+}
+.exp-time, .role{
+    color: rgb(106, 106, 106);
+}
+.image{
+    width: 300px;
+    height: 300px;
+}
+.main-contentbox{
+    display:inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media all and (max-width:800px){
+    div.content div.item{
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    div.content div.item div.left div.header{
+        font-size: 25px;
+    }
+    .content-top{
+        font-size: 18px;
+    }
+}
