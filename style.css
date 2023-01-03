@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
 
 body{
     margin: 0px;
@@ -8,7 +9,7 @@ body{
     /* font-family: script; */
     /* font-family: display; */
     /* font-family: helvetica; */
-    font-family: Montserrat;
+    font-family: Montserrat,'Montserrat Alternates',sans-serif;
 }
 nav.nav{
     background-color: rgb(33, 31, 31);
@@ -78,6 +79,17 @@ div.main{
     opacity: 100%;
   }
 }
+
+@keyframes slideFadeInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 100%;
+  }
+}
 div.main-content{
     font-size: 40px;
 }
@@ -92,6 +104,9 @@ div.main-content div.line-left{
 
 .right-animation{
   animation: 1.5s ease-out 0s 1 slideFadeInFromRight;
+}
+.left-animation{
+  animation: 1.5s ease-out 0s 1 slideFadeInFromLeft;
 }
 
 .image{
@@ -129,6 +144,17 @@ div.content-header:hover{
 @media all and (max-width:800px){
 
   @keyframes slideFadeInFromRight {
+    0% {
+      transform: translateY(100%);
+      opacity: 0%;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 100%;
+    }
+  }
+
+  @keyframes slideFadeInFromLeft {
     0% {
       transform: translateY(100%);
       opacity: 0%;
