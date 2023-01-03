@@ -5,17 +5,20 @@ div.main{
     color: black;
 }
 
-/* div.main-header{
-    font-size: 40px;
-} */
+div.main-header{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+}
 div.content div.item{
     width: 50%;
     float: left;
     padding-bottom: 10px;
 }
 
-div.content div.item div.left div.header{
-    font-size: 30px;
+div.content div.item div.header{
+    font-size: 20px;
+    font-weight: 550;
     color: gold;
 }
 .content-header{
@@ -24,6 +27,11 @@ div.content div.item div.left div.header{
 .exp-time, .role{
     color: rgb(106, 106, 106);
 }
+
+.right-content{
+    padding-right: 25px;
+}
+
 .image{
     width: 300px;
     height: 300px;
@@ -40,10 +48,25 @@ div.content div.item div.left div.header{
         float: none;
         display: block;
     }
-    div.content div.item div.left div.header{
-        font-size: 25px;
+    div.content div.item div.header{
+        font-size: 16px;
+    }
+    div.content div.item {
+        padding-bottom: 20px;
+    }
+    .right-content{
+        font-size: 14px;
+    }
+    .exp-time, .role{
+        font-size: 12px;
     }
     .content-top{
-        font-size: 18px;
+        font-size: 14px;
+    }
+    div.main-header{
+        font-size: 20px;
+    }
+    div.content-header{
+        font-size: 25px;
     }
 }

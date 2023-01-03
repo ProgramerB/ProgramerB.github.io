@@ -1,16 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+
 body{
     margin: 0px;
     background-color: rgb(37, 36, 36);
-    font-family :Verdana, Geneva, Tahoma, sans-serif
+    /* font-family :Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family: sans-serif; */
+    /* font-family: script; */
+    /* font-family: display; */
+    /* font-family: helvetica; */
+    font-family: Montserrat;
 }
 nav.nav{
     background-color: rgb(33, 31, 31);
     height: 50px;
+    text-align: center;
 }
 
 nav.nav div.links{
     display: inline-block;
-    margin-left: 30px;
+    /* margin-left: 30px; */
+    /* width: 80px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* background-color: #FFD700; */
 }
 
 nav.nav a{
@@ -131,7 +145,7 @@ div.content-header:hover{
   div.left{
     display: block;
     width: 100%;
-    margin-bottom: 20px;
+    
   }
   div.right{
       display: block;
