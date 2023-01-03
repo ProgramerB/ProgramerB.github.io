@@ -13,7 +13,7 @@ function rightContent(info,id,image,limit){
     for(let i=1;i<=limit;i++){
         if(id!=="id"+i){
             const e = document.getElementById("id"+i);
-            e.style.color = "black";
+            e.style.color = "gray";
         }
     }
 

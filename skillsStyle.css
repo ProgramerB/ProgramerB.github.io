@@ -41,7 +41,16 @@ div.content div.item div.header{
     width: 100%;
     margin-bottom: 20px;
 }
-
+.outside{
+    color: white;
+    background-color: rgb(33, 31, 31);
+    background-color: black;
+    width: 75%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 @media all and (max-width:800px){
     div.content div.item{
         width: 100%;
@@ -68,5 +77,10 @@ div.content div.item div.header{
     }
     div.content-header{
         font-size: 25px;
+    }
+    .image{
+        width: 100px;
+        height: 100px;
+        display: none;
     }
 }
