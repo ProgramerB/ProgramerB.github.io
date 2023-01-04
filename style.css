@@ -92,6 +92,9 @@ div.main{
 }
 div.main-content{
     font-size: 40px;
+    width: 100%;
+    /* padding-bottom: 300px; */
+    padding-bottom: 100px;
 }
 
 div.main-content div.line-right{
@@ -140,7 +143,52 @@ div.content-header{
 div.content-header:hover{
   color: gold;
 }
-
+div.main-header{
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+img.my-image{
+  width: 250px;
+  border-radius: 125px;
+  filter: grayscale(100%);
+}
+div.sub-content{
+  font-size: 40px;
+  font-weight: 510;
+  background-color: white;
+  color: black;
+  width: 75%;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  padding-top: 5%;
+  padding-bottom: 300px;
+}
+div.about{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+div.email{
+  display: inline;
+  text-decoration: underline;
+  word-wrap: break-word;
+}
+div.email:hover{
+  color: #FFD700;
+}
+footer{
+  height: 60px;
+  background-color: black;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+footer div.ftext{
+  vertical-align: middle;
+  line-height: 60px;
+  text-decoration: none;
+  text-align: center;
+}
 @media all and (max-width:800px){
 
   @keyframes slideFadeInFromRight {
@@ -165,10 +213,6 @@ div.content-header:hover{
     }
   }
 
-  div.main-content{
-    font-size: 35px;
-  }
-
   div.left{
     display: block;
     width: 100%;
@@ -181,6 +225,26 @@ div.content-header:hover{
   .image{
       width: 350px;
       height: 350px;
+  }
+  div.main-header{
+    font-size: 20px;
+  }
+  div.about{
+    font-size: 14px;
+  }
+  div.sub-content{
+    font-size: 25px;
+  }
+  div.main-content{
+    padding-bottom: 50px;
+    padding-top: 0px;
+  }
+  img.my-image{
+    width: 50%;
+    border-radius: 125px;
+    filter: grayscale(100%);
+    margin-left: 25%;
+    margin-right: 25%;
   }
   
 }
