@@ -52,6 +52,16 @@ div.content div.item div.header{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.project-links{
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    color: gold;
+}
+.project-links:hover{
+    color: white
+}
+
 @media all and (max-width:800px){
     div.content div.item{
         width: 100%;
