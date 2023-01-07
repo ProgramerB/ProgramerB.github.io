@@ -205,6 +205,21 @@ a.contact-link{
 a.contact-link:hover{
   color: gold;
 }
+@keyframes typing{
+  from {width: 0}
+  to {width: 100%}
+}
+.typed{
+  white-space: nowrap;
+  word-wrap: break-word;
+  overflow: hidden;
+  width: 0;
+  animation: typing;
+  animation-delay: 1.5s;
+  animation-duration: 3.5s;
+  animation-timing-function: steps(40,end);
+  animation-fill-mode: forwards;
+}
 @media all and (max-width:800px){
 
   @keyframes slideFadeInFromRight {

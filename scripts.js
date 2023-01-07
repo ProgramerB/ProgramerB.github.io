@@ -30,7 +30,7 @@ function projectContent(info,id,image,proj,code){
 
     const proj_link = document.getElementById("project")
     if(proj !== ''){
-        proj_link.innerText = "Live project";
+        proj_link.innerHTML = '<i class="fa fa-file-o" aria-hidden="true"></i> Live project';
     }
     else{
         proj_link.innerText = "";
@@ -40,7 +40,7 @@ function projectContent(info,id,image,proj,code){
     const code_link = document.getElementById("code")
     
     if(code !== ''){
-        code_link.innerText = "Source code";
+        code_link.innerHTML = '<i class="fa fa-file-code-o"></i> Source Code';
     }
     else{
         code_link.innerText = "";
