@@ -189,6 +189,22 @@ footer div.ftext{
   text-decoration: none;
   text-align: center;
 }
+
+div.contact-nav{
+  background-color: black;
+}
+
+a.contact-link{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+a.contact-link:hover{
+  color: gold;
+}
 @media all and (max-width:800px){
 
   @keyframes slideFadeInFromRight {
