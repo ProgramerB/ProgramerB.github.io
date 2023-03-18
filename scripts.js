@@ -53,7 +53,7 @@ function projectContent(info,id,image,proj,code){
     const el = document.getElementById(id);
     el.style.color="gold";
 
-    for(let i=1;i<=3;i++){
+    for(let i=1;i<=4;i++){
         if(id!=="id"+i){
             const e = document.getElementById("id"+i);
             e.style.color = "gray";
