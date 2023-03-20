@@ -23,6 +23,13 @@ div.content div.item div.header{
     font-weight: 550;
     color: gold;
 }
+div.content div.item div.header a{
+    text-decoration: none;
+    color: gold;
+}
+div.content div.item div.header a:hover{
+    color:#000000;
+}
 .content-header{
     font-size: 30px;
 }
