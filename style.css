@@ -50,6 +50,7 @@ div.main{
     margin-left: 12.5%;
     margin-right: 12.5%;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 @keyframes slideInFromLeft {
@@ -173,7 +174,10 @@ div.email{
   text-decoration: underline;
   word-wrap: break-word;
 }
-div.email:hover{
+div.email a{
+  color: #000000;
+}
+div.email a:hover{
   color: #FFD700;
 }
 footer{
