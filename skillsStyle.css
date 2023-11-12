@@ -21,14 +21,16 @@ div.content div.item{
 div.content div.item div.header{
     font-size: 20px;
     font-weight: 550;
-    color: gold;
+    /* color: gold; */
 }
 div.content div.item div.header a{
     text-decoration: none;
-    color: gold;
+    /* color: gold; */
+    color: #000000;
 }
 div.content div.item div.header a:hover{
-    color:#000000;
+    /* color:#000000; */
+    color: gold;
 }
 .content-header{
     font-size: 30px;
@@ -69,7 +71,12 @@ div.content div.item div.header a:hover{
 .project-links:hover{
     color: white
 }
-
+.header-link{
+    color: #000000;
+}
+.header-link:hover{
+    color: gold;
+}
 @media all and (max-width:800px){
     div.content div.item{
         width: 100%;
