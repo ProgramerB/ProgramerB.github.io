@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+@font-face {
+  font-family: Montserrat_2;
+  src: url("font/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
 
 body{
     margin: 0px;
@@ -9,7 +13,7 @@ body{
     /* font-family: script; */
     /* font-family: display; */
     /* font-family: helvetica; */
-    font-family: Montserrat,'Montserrat Alternates',sans-serif;
+    font-family: Montserrat_2,Montserrat,sans-serif;
 }
 nav.nav{
     background-color: rgb(33, 31, 31);
@@ -156,7 +160,7 @@ img.my-image{
 }
 div.sub-content{
   font-size: 40px;
-  font-weight: 510;
+  font-weight: 550;
   background-color: white;
   color: black;
   width: 75%;
