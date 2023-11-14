@@ -139,7 +139,9 @@ div.right{
   font-size: 18px;
   padding-right: 20px;
 }
-
+.reading{
+  font-family: 'Times New Roman', Times, serif;
+}
 div.content-header{
   display: inline-block;
   width: 100%;
