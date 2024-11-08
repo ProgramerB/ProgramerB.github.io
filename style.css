@@ -269,15 +269,21 @@ a.contact-link:hover{
   }
   div.main{
     margin-bottom: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
   }
   div.main-header{
     font-size: 20px;
   }
   div.about{
-    font-size: 14px;
+    font-size: 16px;
   }
   div.sub-content{
     font-size: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 95%;
   }
   div.main-content{
     padding-bottom: 25px;
