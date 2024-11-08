@@ -111,4 +111,11 @@ div.content div.item div.header a:hover{
         height: 180px;
         /* display: none; */
     }
+    .outside{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
